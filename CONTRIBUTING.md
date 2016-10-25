@@ -43,7 +43,7 @@ By participating, you are expected to uphold this code.
   - Edit/Fix style [for formatting, typos, etc with no code change]
   - Refactor [details about refactored feature or code]
   - Add test [name of spec]
-1. When you've finished with your fix or feature, push changes into your branch. submit a [pull request][]
+1. When you've finished with your fix or feature, push changes into your branch. submit a [pull request](#pull-requests)
    directly to master. Include a detailed description of your changes.
 1. Your pull request will be reviewed by another maintainer. The point of code
    reviews is to help keep the codebase clean and of high quality and, equally
@@ -73,7 +73,7 @@ Make a clear pull request from your fork detailing exactly what changes you made
 ### Git Commit Messages
 - Commit messages should be written in the present tense. e.g. "Add new file".
 - The first line of your commit message should be a brief summary of what the
-  commit changes. Aim for about 70 characters max. Remember: This is a summary,
+  commit changes. Aim for about 50 characters max. Remember: This is a summary,
   not a detailed description of everything that changed.
 - If you want to explain the commit in more depth, following the first line should
   be a blank line and then a more detailed description of the commit. This can be
