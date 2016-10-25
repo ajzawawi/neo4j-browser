@@ -43,7 +43,7 @@ By participating, you are expected to uphold this code.
   - Edit/Fix style [for formatting, typos, etc with no code change]
   - Refactor [details about refactored feature or code]
   - Add test [name of spec]
-1. When you've finished with your fix or feature, push changes into your branch. submit a [pull request](#pull-requests)
+1. When you've finished with your fix or feature, push changes into your branch. Submit a [pull request](#pull-requests)
    directly to master. Include a detailed description of your changes.
 1. Your pull request will be reviewed by another maintainer. The point of code
    reviews is to help keep the codebase clean and of high quality and, equally
