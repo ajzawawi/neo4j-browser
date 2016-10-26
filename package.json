@@ -4,7 +4,8 @@
   "description": "A small app for interacting with neo4j in the browser console",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "lint": "eslint '**/*.js'; exit 0",
+    "start": "npm run lint &&& node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -17,6 +18,14 @@
   "dependencies": {
     "config": "^1.21.0",
     "db": "1.0.0",
+    "eslint": "^3.8.1",
     "express": "^4.10.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1"
   }
 }
